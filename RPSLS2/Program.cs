@@ -20,6 +20,13 @@ namespace RPSLS2
 
             Console.WriteLine(playerOne.playername + " has " + playerOne.score + " points!");
             Console.ReadLine();
+
+            ClassAiPlayer aiPlayer = new ClassAiPlayer();
+
+            aiPlayer.playername = "aiPlayer";
+            aiPlayer.score = 0;
+            aiPlayer.gestures = "gesture";
+            
         }
     }
 }

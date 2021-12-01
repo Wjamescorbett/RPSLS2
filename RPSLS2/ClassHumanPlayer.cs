@@ -9,6 +9,7 @@ namespace RPSLS2
     public class HumanPlayer : Player
     {
         public int tiecounter;
+        public string gesture;
         public HumanPlayer()
         {
         }

@@ -10,7 +10,6 @@ namespace RPSLS2
     {
         public string playername;
         public int score;
-        public string gesture;
 
         public Player()
         {
